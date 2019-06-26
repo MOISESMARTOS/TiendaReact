@@ -81,7 +81,6 @@ class IniciarSesion extends React.Component {
             .get('https://tienda-9303e.firebaseio.com/usuarios.json')
             .set('Content-Type', 'application/json')
             .end((err, res)=>{
-                console.log(res.body);
                 let usuarios = res.body;
                 let usuario = undefined;
                 for (var index = 0; index < usuarios.length; index++) {

@@ -1,1 +1,1 @@
-# TiendaReact
+# TiendaReactJs
